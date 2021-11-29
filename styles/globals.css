@@ -1,3 +1,10 @@
+:root{
+  --primary-color: #d10506;
+  --primary-color-opacity: #d1050633;
+  --white-color: #fff;
+  --black-color: #333333;
+  --black-color-opacity: #33333333;
+}
 html,
 body {
   padding: 0;
@@ -13,4 +20,7 @@ a {
 
 * {
   box-sizing: border-box;
+}
+h1{
+  color: var(--primary-color);
 }
